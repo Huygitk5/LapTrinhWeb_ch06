@@ -1,0 +1,70 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Nov 6, 2025, 1:44:04 PM
+    Author     : ASUS
+*/
+
+/*
+ * Phong cách mới: Dark Mode, hiện đại, sử dụng màu nhấn (accent color) xanh neon
+ */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;    
+    background-color: #bce3da;
+}
+
+.survey-container {
+    width: 600px; /* Đặt chiều rộng cố định cho khung */
+    margin: 3em auto; /* Căn giữa khung (trên/dưới 2em, trái/phải auto) */
+    
+    background-color: white; /* Đặt màu nền trắng cho khung */
+    
+    border: 1px solid #ccc; /* Đây là đường viền (khung) */
+    
+    border-radius: 10px; /* Đây là bo góc */
+    
+    padding: 2em; /* Tạo khoảng đệm bên trong khung */
+    
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Thêm hiệu ứng đổ bóng cho đẹp (tùy chọn) */
+}
+/* ============================================
+*/
+h1 {
+    color: teal;
+}
+label {
+    float: left;
+/*    width: 6em;*/
+    margin-bottom: 0.5em;
+}
+
+.lbl-index label {
+    width: 6em;
+}
+
+.lbl-thanks label{
+    width: 15em;
+}
+input[type="text"], input[type="email"] {
+    width: 20em;
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+}
+br {
+    clear: both;
+}
+.logo {
+    /* Bo góc */
+    border-radius: 10px;
+    
+    /* Căn giữa */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* (Tùy chọn) Thêm một chút lề cho đẹp mắt */
+    margin-bottom: 1em; 
+}
