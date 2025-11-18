@@ -10,15 +10,44 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
 /*
  * Phong cách mới: Dark Mode, hiện đại, sử dụng màu nhấn (accent color) xanh neon
  */
-body {
+/*body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11pt;    
     background-color: #bce3da;
+    
+    min-height: 100vh;  vh = viewport height (chiều cao màn hình) 
+    margin: 0;
+}*/
+
+/* main.css */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    background-color: #bce3da;
+
+    
+    /* 1. Đặt chiều cao body bằng 100% chiều cao màn hình */
+    min-height: 100vh; 
+    
+    /* 2. Bật chế độ Flexbox */
+    display: flex;
+    
+    /* 3. Xếp các phần tử theo chiều dọc (Cái khung nằm trên, footer nằm dưới) */
+    flex-direction: column;
+    
+    /* 4. Căn giữa theo chiều DỌC (Đây là cái bạn đang cần) */
+    justify-content: center;
+    
+    /* 5. Căn giữa theo chiều NGANG */
+    align-items: center;
+    
+    /* 6. Xóa margin mặc định của trình duyệt */
+    margin: 0; 
 }
 
 .survey-container {
     width: 600px; /* Đặt chiều rộng cố định cho khung */
-    margin: 3em auto; /* Căn giữa khung (trên/dưới 2em, trái/phải auto) */
+    margin: 1em;
     
     background-color: white; /* Đặt màu nền trắng cho khung */
     
